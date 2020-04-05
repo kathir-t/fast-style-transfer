@@ -1,4 +1,7 @@
-import tensorflow as tf, pdb
+# import tensorflow as tf, pdb
+import pdb
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 
 WEIGHTS_INIT_STDEV = .1
 
